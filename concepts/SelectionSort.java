@@ -15,6 +15,7 @@ Then find the second minimum element and swap it with the the second index
      array after first iteration 3, 6, 7, 12
 
 */
+// time complexity for selection sort in n*n which is the best, worst and average for this algorithm
 
 // Code for any array to sort using selection sort
 class selectionSort {
