@@ -29,14 +29,14 @@ class selectionSort {
             // For getting the index of minimum element from the the current starting point to n-1 
             // because we are cheking every element using the condition n-1
             for(int j = i; j<=n-1; j++){
-                if(nums[j]<arr[min]){
+                if(nums[j]<nums[min]){
                     min = j;
                 }
             }
             // swapping the element 
-            int temp = arr[min];
-            arr[min] = arr[i];
-            arr[i] = temp;
+            int temp = nums[min];
+            nums[min] = nums[i];
+            nums[i] = temp;
         }
         return nums;
     }
