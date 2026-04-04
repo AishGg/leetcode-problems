@@ -8,6 +8,8 @@
 // its like 0 to low-1 -- low to mid-1 -- mid to high -- high + 1to n-1
 
 // we are solving the mid to high proportion 
+// time complexity is O(n) as sorting element on every condition 
+// try to visualize or count the steps
 
 
 /**
